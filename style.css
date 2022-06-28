@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&display=swap');
+
+body{
+    background-color: rgb(237, 199, 217);
+}
+
+.wrapper {
+    width: 1420px;
+    padding-left: 20px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    font-size: 32px;
+}
+
+.description{
+    font-size: 20;
+}
+
+li:hover{
+    color: darkgray;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 400px;
+    border-radius: 5px;
+}
