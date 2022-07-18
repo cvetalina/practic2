@@ -91,9 +91,10 @@ body {
   line-height: 40px;
   /*font-family: 'poppins'; */
   color: rgb(255, 255, 255);
-  padding: 0px 5px;
+  padding: 0px 25px;
+  /* padding-left: 5ch; */
   font-size: 15px;
-  position: relative;
+  position: absolute;
 }
 
 /* .header__phone:before{
@@ -198,9 +199,4 @@ body {
   background-color: rgb(69, 69, 152);
   padding: 45px;
   list-style-type: none;
-}
-
-.map {
-  height: 500px;
-  width: 500px;
 }

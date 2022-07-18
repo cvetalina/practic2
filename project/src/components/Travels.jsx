@@ -19,7 +19,7 @@ export default function Travels() {
                 </div>
             </div>
             <div className='wrapper'>
-                    <p>Упс, тут пока пусто..... </p>
+                <p>Упс, тут пока пусто..... </p>
                 <div>
                     <h1> Счетчик: {counter} </h1>
                     <Button variant="contained" onClick={increment}> Жмякай сюда </Button>
