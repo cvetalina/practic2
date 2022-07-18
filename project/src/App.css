@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Philosopher&display=swap');
+
+/* ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  background-color: rgba(135, 179, 245, 0.5);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('https://vsegda-pomnim.com/uploads/posts/2022-04/1649140203_82-vsegda-pomnim-com-p-priroda-yuzhnogo-urala-foto-89.jpg');
+  height: 40vh;
+  /* background-position: 20px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 75% 25%;
+}
+
+/* Home */
+.wrapper {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-block-end: 30px;
+  margin-top: 10px;
+}
+
+.bg-home {
+  background-image: url('https://vsegda-pomnim.com/uploads/posts/2022-04/1649140203_82-vsegda-pomnim-com-p-priroda-yuzhnogo-urala-foto-89.jpg');
+  height: 100vh;
+  /* background-position: 20px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Header, Menu */
+.container {
+  max-width: 1170px;
+  margin: 5px;
+  padding: 0 15px;
+}
+
+
+
+/* Menu */
+.header_content-inner {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 40px;
+  border: 2px solid transparent;
+  padding: 0px 16px;
+  transition: all .3s;
+}
+
+.menunew a {
+  font-size: 17px;
+  color: white;
+}
+
+/* Header */
+.header_top {
+  /* height: 10vh; */
+  background-color: #292929e8
+}
+
+.header__phone {
+  float: right;
+  line-height: 40px;
+  /*font-family: 'poppins'; */
+  color: rgb(255, 255, 255);
+  padding: 0px 5px;
+  font-size: 15px;
+  position: relative;
+}
+
+/* .header__phone:before{
+  content: "\f095";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: #008B8B;
+} */
+
+.header__email {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25px;
+  line-height: 40px;
+  padding-left: 60ch;
+}
+
+/* .header__email::before{
+  content: "\f003";
+  font-family: 'icomoon';
+  left: 0;
+  color: #008B8B;
+} */
+.header__btn {
+  color: #79ebebcf;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.header_content-inner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title {
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.mid-title-text {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.slider {
+  /* background-image: url(../img/logotip1.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.home-text-item {
+  text-align: center;
+  padding-top: 280px;
+  max-width: 665px;
+  margin: 0 auto;
+}
+
+.home-text {
+  /* font-family: 'Philosopher', sans-serif; */
+  /* text-transform: uppercase; */
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 520;
+  letter-spacing: 0.5px;
+}
+
+.pages-title {
+  font-size: 35px;
+  color: #fff;
+  padding-top: 80px;
+  max-width: 665px;
+  margin-left: 70px;
+}
+
+/* .pages-item {
+  padding-top: 80px;
+  max-width: 665px;
+  margin: 5em;
+} */
+
+
+.about-text {
+  font-family: 'Philosopher', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.footer {
+  color: white;
+  font-size: 17px;
+  background-color: rgb(69, 69, 152);
+  padding: 45px;
+  list-style-type: none;
+}
+
+.map {
+  height: 500px;
+  width: 500px;
+}
